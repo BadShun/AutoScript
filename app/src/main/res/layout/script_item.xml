@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/list_item_shape"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/js_icon_shape"
+        android:src="@drawable/baseline_javascript_24" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/task_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Task Name"
+            android:textColor="@color/white"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/script_path_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="25dp"
+            android:ellipsize="end"
+            android:text="Script Path"
+            android:textColor="#99aaaaaa"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
